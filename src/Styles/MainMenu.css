@@ -1,0 +1,29 @@
+.main-menu {
+  display: block;
+  width: 350px;
+  height: 100vh;
+
+  background-color: #fff;
+  padding: 15px;
+  float: left;
+
+  overflow-y: auto;
+}
+
+.title {
+  width: 100%;
+  font-size: 34px;
+  line-height: 38px;
+
+  color: var(--label-gray);
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  width: 100%;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: var(--label-gray);
+  margin-bottom: 20px;
+}

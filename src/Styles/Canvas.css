@@ -1,0 +1,7 @@
+.canvas {
+  display: block;
+  width: calc(100% - 350px);
+  height: 100vh;
+
+  float: right;
+}

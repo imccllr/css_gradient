@@ -1,0 +1,102 @@
+:root {
+  --label-gray: rgb(131, 131, 131);
+  --text-gray: rgb(44, 44, 44);
+  --light-gray: rgb(196, 196, 196);
+  --lighter-gray: rgb(238, 238, 238);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: block;
+
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.generic-button-empty {
+  display: inline-block;
+  vertical-align: top;
+
+  height: 36px;
+  width: 90px;
+
+  background-color: #fff;
+
+  margin: 0 10px 10px 0;
+}
+
+.generic-button {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 8px;
+
+  height: 36px;
+  width: 90px;
+  cursor: pointer;
+
+  background-color: #fff;
+  border: 2px solid var(--lighter-gray);
+
+  margin: 0 10px 10px 0;
+}
+
+.generic-button-with-text {
+  padding: 7px;
+
+  color: var(--text-gray);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.generic-button-small {
+  display: inline-block;
+  border-radius: 8px;
+
+  height: 36px;
+  width: 45px;
+  cursor: pointer;
+
+  background-color: #fff;
+  border: 2px solid var(--lighter-gray);
+
+  margin: 0 10px 10px 0;
+}
+
+.generic-button:hover,
+.generic-button-small:hover {
+  border: 2px solid var(--light-gray);
+}
+
+.generic-button-icon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  top: 2px;
+}
+
+.section-label {
+  display: block;
+  width: 100%;
+  text-align: left;
+
+  margin: 20px auto;
+
+  color: var(--label-gray);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.generic-textarea {
+  border-radius: 8px;
+  border: 2px solid var(--lighter-gray);
+
+  margin: 0 10px 10px 0;
+  resize: none;
+}
